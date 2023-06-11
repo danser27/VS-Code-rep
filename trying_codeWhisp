@@ -1,7 +1,7 @@
 import datetime
 
 def expenses(expenses_string):
-    """Parse the list of expensese and return the list of triples (date, value, currency)"""
+    """Parse the list of expenses and return the list of triples (date, value, currency)"""
     
 expenses = []    
 for expense in expenses_string.split("\n"):
